@@ -1,0 +1,60 @@
+body {
+  background: #000;
+  margin: 0 auto;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+html {
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+}
+section, section a, section a:visited {
+  color: #fff
+}
+section a:hover {
+  color: #3CB371;
+}
+.moss {
+  margin-top: 45px;
+  text-align:center;
+}
+.moss p {
+  font-family: 'Cousine', monospace;
+  font-size: 25px;
+}
+.moss .play a {
+  font-family: 'Nothing You Could Do', cursive;
+  color: #3CB371;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.moss .play a:hover {
+  color: #000000;
+}
+
+.moss .play {
+  padding: 2em 0;
+  text-align: center;
+}
+.moss-title {
+  max-width: 550px;
+}
+@media (max-width: 575px) {
+  header, section {
+    margin: 0 0.5em;
+  }
+  img {
+    width: 100%;
+  }
+  .container {
+    max-width: 575px;
+    margin: 0 0.5em;
+  }
+  .moss p {
+    font-size: 5vw;
+  }
+}
