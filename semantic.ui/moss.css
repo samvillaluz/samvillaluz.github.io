@@ -2,8 +2,10 @@ body {
   background: #000;
   margin: 0 auto;
 }
-.container {
+.mossing{
   max-width: 1200px;
+  margin: 0 auto;
+  background: #000;
   margin: 0 auto;
 }
 html {
@@ -18,13 +20,27 @@ section a:hover {
   color: #3CB371;
 }
 .moss {
-  margin-top: 45px;
+  margin-top:45px;
   text-align:center;
 }
 .moss p {
   font-family: 'Cousine', monospace;
-  font-size: 25px;
+  font-size: 1.8em;
 }
+
+.moss .me {
+  font-family: 'Nothing You Could Do', cursive;
+  color: #c8a2c8;
+  font-size: 4em;
+  text-decoration: none;
+  padding: 0.5em 0.5em 0;
+  text-align: center;
+}
+
+.moss .linkz a:hover {
+  color: #a464a4;
+}
+
 .moss .play a {
   font-family: 'Nothing You Could Do', cursive;
   color: #3CB371;
